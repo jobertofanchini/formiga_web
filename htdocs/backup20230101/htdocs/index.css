@@ -1,0 +1,47 @@
+body {
+	background: #000000; 
+}
+
+section{
+	display: flex;
+}
+
+h3 {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	border-width: 20px;
+	border-top-width: 20px;
+	border-color: yellow;
+	border: solid;
+	padding: 15px;
+	
+}
+
+article {
+	width: 600px;
+}
+
+#formiga { 
+	font-weight: bold;
+	font-family: Calibri;
+	font-size: 72px;
+	-webkit-text-stroke: 1px orange;
+	color: white;
+	line-height: 0;
+	text-align: right;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+}
+
+.a_nt {
+	color: orange;
+	-webkit-text-stroke: orange;
+
+}
+
+.punto {
+	color: black;
+}
+
