@@ -15,9 +15,9 @@ html {
     /*border-style: double;*/
 }
 
-#left_article, #rights_articles {
+#rights_articles {
     width: 50%;
-    /*margin: 10px;*/
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +25,17 @@ html {
     /*border-style: dotted;*/
 }
 
-h1, h2 {
+#left_article {
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: right;
+    align-items: center;
+    /*border-style: dotted;*/
+}
+
+h1 {
     font-size:80px;
     /*border-style: solid;*/
 }
@@ -40,14 +50,15 @@ h1, h2 {
     padding-bottom: 10px;
     margin-top: 250px;*/
     text-align: center;
-    height: fit-content;
+    /*height: fit-content;*/
+    width: fit-content;
 }
 
 #ar {
     color: skyblue;
     background-color: white;
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     margin-left: 10px;
     width: fit-content;
 }
@@ -56,7 +67,7 @@ h1, h2 {
     color: green;
     background-color: yellow;
     text-align: left;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left: 10px;
     width: fit-content;    
 }
