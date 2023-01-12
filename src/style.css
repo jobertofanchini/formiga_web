@@ -12,8 +12,6 @@ html {
     margin: 40px;
     background-color: rgb(245, 245, 245);
     display: flex;
-    
-    
     /*border-style: double;*/
 }
 
@@ -85,6 +83,10 @@ h1, h2 {
     height: 80vh;
     margin: 40px;
     /*border-style: double;*/
+}
+
+.img {
+    /*width: 50%;*/
 }
 
 #third_section {
