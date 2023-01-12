@@ -1,22 +1,29 @@
 html {
     background-color: rgb(255, 255, 255);
-    width: 1300px;
+    /*width: 1300px;*/
    
     /*border-style: solid;*/
     font-family: 'Seymour One', sans-serif;
 }
 
 #first_section {
+    width: 95vw;
+    height: 80vh;
+    margin: 40px;
     background-color: rgb(245, 245, 245);
     display: flex;
-    margin: 40px;
-    height: 600px;
+    
+    
     /*border-style: double;*/
 }
 
 #left_article, #rights_articles {
     width: 50%;
-    margin: 10px;
+    /*margin: 10px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
     /*border-style: dotted;*/
 }
 
@@ -25,48 +32,67 @@ h1, h2 {
     /*border-style: solid;*/
 }
 
-h1 {
+#formiga {
     color: white;
     background-color: black;
-    text-align: center;
+    /*text-align: center;
     margin-right: 10px;
     margin-left: 40px;
     padding-top: -10px;
     padding-bottom: 10px;
-    margin-top: 250px;
+    margin-top: 250px;*/
+    text-align: center;
+    height: fit-content;
 }
 
-#right_article_1 {
+#ar {
     color: skyblue;
     background-color: white;
-    margin-right: 380px;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: fit-content;
+}
+
+#br {
+    color: green;
+    background-color: yellow;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: fit-content;    
+}
+
+
+#right_article_1 {
+    /*margin-right: 380px;
     margin-left: -10px;
     text-align: center;
-    margin-top: 200px;   
+    margin-top: 200px;*/  
 }
 
 #right_article_2 {
-    color: green;
-    background-color: yellow;
-    margin-right: 150px;
+    /*margin-right: 150px;
     margin-left: -10px;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -50px;*/
 }
 
 #second_section {
     background-color: rgb(245, 245, 245);
     display: flex;
+    width: 95vw;
+    height: 80vh;
     margin: 40px;
-    height: 600px;
     /*border-style: double;*/
 }
 
 #third_section {
     background-color: rgb(245, 245, 245);
     display: flex;
+    width: 95vw;
+    height: 80vh;
     margin: 40px;
-    height: 600px;
     /*border-style: double;*/
 }
 
